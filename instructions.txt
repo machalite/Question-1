@@ -1,9 +1,9 @@
 //Main app test
-1. run Question1.java
+1. run App.java
 2. check result in console
 3. modify inputStr variable to test other values
 
 //Unit test
-1. run coverage as JUnit test on Question1Test.java
+1. run coverage as JUnit test on DataProcessorTest.java
 2. check JUnit test result
 3. check coverage result
