@@ -11,6 +11,11 @@ import org.junit.Test;
 import com.test.functions.DataProcessor;
 import com.test.functions.Util;
 
+/**
+ * Unit tests for data processor class
+ * @author Jonathan Huang
+ *
+ */
 public class DataProcessorTest {
 	
 	private List<List<Map<String, String>>> inputListOfListMap;
@@ -21,6 +26,10 @@ public class DataProcessorTest {
 	
 	private Util util = new Util();
 	
+	/**
+	 * Generate mock list of list map
+	 * @return mock list of list map
+	 */
 	public List<List<Map<String, String>>> createListOfListMap(){
 		List<List<Map<String, String>>> listOfListMap = new ArrayList<List<Map<String,String>>>();
 		List<Map<String, String>> listMap0 = new ArrayList<Map<String,String>>();
@@ -48,6 +57,13 @@ public class DataProcessorTest {
 		return listOfListMap;
 	}
 	
+	
+	/**
+	 * Generate mock map value
+	 * @param key
+	 * @param value
+	 * @return map
+	 */
 	public Map<String, String> createMapValue(String key, String value){
 		Map<String, String> map = new HashMap<String, String>();
 		map.put(key, value);

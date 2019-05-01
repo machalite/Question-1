@@ -7,6 +7,15 @@ import java.util.Map;
 import com.test.functions.DataProcessor;
 import com.test.functions.Util;
 
+
+/**
+ * Question 1 main app
+ * Loads String value into list of list map
+ * Store list of list map value into String
+ * Change inputStr variable to test other values
+ * @author Jonathan Huang
+ *
+ */
 public class App {	
 	public static void main(String[] args) {
 		String inputStr = "key1=value1;key2=value2\nkeyA=valueA;keyB=valueB;keyC=valueC\nkeyAD=valueAD;keyBD=valueBD;keyCD=valueCD\nkeyFin=finValue";
